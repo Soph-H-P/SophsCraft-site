@@ -1,0 +1,166 @@
+html {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 20px;
+    font-weight: 300;
+    color: seashell;
+    background-color: #556769;
+    opacity: 0.9;
+    text-align: center;
+    padding: 0;
+
+}
+
+.main {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-size: 0.75rem; 
+}
+
+p {
+   padding: 0.5rem; 
+}
+
+
+/*NAV BAR*/
+header {
+    display: flex; 
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: #556769;
+    width: 100%;
+    height: 69px;
+    margin: 0px auto;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+
+    
+}
+
+#space-between {
+    justify-content: space-between;
+}
+
+/*LOGO*/
+#logo {
+    height: 2.5rem;
+    width: auto;
+    margin: 0.5rem 0.5rem;
+    display: inline-flex;
+}
+
+nav {
+    display: inline-flex;
+    margin-right: 1rem;
+}
+
+
+nav li {
+    display: inline-block;
+    text-decoration: underline;
+}
+
+/*OUR MISSION*/
+.mission {
+    background-image: url("./crochet.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: auto;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 40px;
+    
+}
+
+.banner {
+    background-color: #556769;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+/*TEA OF THE MONTH*/
+/*CONTAINER*/
+.title-of-month {
+    max-width: 1000px;
+    margin: 100px auto; 
+    display: block;
+    
+    
+}
+
+.tea-of-month {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+ 
+.title {
+    display: block;
+}
+
+/*IMAGES*/
+img {
+    height:200px;
+    width: 300px;
+    margin: 0.5rem;
+
+}
+
+.caption {
+    margin: 0.5rem;
+}
+
+/*LOCATIONS*/
+.locations {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-position: top;
+    height: 400px; 
+    min-width: 1200px;
+    padding-top: 70px;
+    margin: 1rem;
+    display: block;
+ 
+}
+
+.locations .title {
+    padding: 0.5rem;
+    margin: 0;
+}
+
+.addresses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+
+
+
+.container {
+    background-color: #556769;
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+    margin: 1rem;
+    padding: 0;
+ }
+
+
+ .copyright {
+     text-align: left;
+     margin-left: 1rem;
+ }
